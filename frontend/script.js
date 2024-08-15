@@ -88,7 +88,7 @@ function render(map) {
 
 function loadSprites(bank) {
     const bankStr = ('0' + bank.toString());
-    let = bankStr.substr(bankStr.length - 2);
+    let bankStr = bankStr.substr(bankStr.length - 2);
 
     globalState.bank = bankStr;
 
